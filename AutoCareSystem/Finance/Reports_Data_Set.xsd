@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Reports_Data_Set" targetNamespace="http://tempuri.org/Reports_Data_Set.xsd" xmlns:mstns="http://tempuri.org/Reports_Data_Set.xsd" xmlns="http://tempuri.org/Reports_Data_Set.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Reports_Data_Set" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Reports_Data_Set" msprop:Generator_UserDSName="Reports_Data_Set">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Income_Yearly_Separate" msprop:Generator_TableClassName="Income_Yearly_SeparateDataTable" msprop:Generator_TableVarName="tableIncome_Yearly_Separate" msprop:Generator_RowChangedName="Income_Yearly_SeparateRowChanged" msprop:Generator_TablePropName="Income_Yearly_Separate" msprop:Generator_RowDeletingName="Income_Yearly_SeparateRowDeleting" msprop:Generator_RowChangingName="Income_Yearly_SeparateRowChanging" msprop:Generator_RowEvHandlerName="Income_Yearly_SeparateRowChangeEventHandler" msprop:Generator_RowDeletedName="Income_Yearly_SeparateRowDeleted" msprop:Generator_RowClassName="Income_Yearly_SeparateRow" msprop:Generator_UserTableName="Income_Yearly_Separate" msprop:Generator_RowEvArgName="Income_Yearly_SeparateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Section" msprop:Generator_ColumnVarNameInTable="columnSection" msprop:Generator_ColumnPropNameInRow="Section" msprop:Generator_ColumnPropNameInTable="SectionColumn" msprop:Generator_UserColumnName="Section" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Income_Yearly_Total" msprop:Generator_TableClassName="Income_Yearly_TotalDataTable" msprop:Generator_TableVarName="tableIncome_Yearly_Total" msprop:Generator_RowChangedName="Income_Yearly_TotalRowChanged" msprop:Generator_TablePropName="Income_Yearly_Total" msprop:Generator_RowDeletingName="Income_Yearly_TotalRowDeleting" msprop:Generator_RowChangingName="Income_Yearly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Income_Yearly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Income_Yearly_TotalRowDeleted" msprop:Generator_RowClassName="Income_Yearly_TotalRow" msprop:Generator_UserTableName="Income_Yearly_Total" msprop:Generator_RowEvArgName="Income_Yearly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Income_Monthly_Separate" msprop:Generator_TableClassName="Income_Monthly_SeparateDataTable" msprop:Generator_TableVarName="tableIncome_Monthly_Separate" msprop:Generator_RowChangedName="Income_Monthly_SeparateRowChanged" msprop:Generator_TablePropName="Income_Monthly_Separate" msprop:Generator_RowDeletingName="Income_Monthly_SeparateRowDeleting" msprop:Generator_RowChangingName="Income_Monthly_SeparateRowChanging" msprop:Generator_RowEvHandlerName="Income_Monthly_SeparateRowChangeEventHandler" msprop:Generator_RowDeletedName="Income_Monthly_SeparateRowDeleted" msprop:Generator_RowClassName="Income_Monthly_SeparateRow" msprop:Generator_UserTableName="Income_Monthly_Separate" msprop:Generator_RowEvArgName="Income_Monthly_SeparateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Section" msprop:Generator_ColumnVarNameInTable="columnSection" msprop:Generator_ColumnPropNameInRow="Section" msprop:Generator_ColumnPropNameInTable="SectionColumn" msprop:Generator_UserColumnName="Section" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Income_Monthly_Total" msprop:Generator_TableClassName="Income_Monthly_TotalDataTable" msprop:Generator_TableVarName="tableIncome_Monthly_Total" msprop:Generator_RowChangedName="Income_Monthly_TotalRowChanged" msprop:Generator_TablePropName="Income_Monthly_Total" msprop:Generator_RowDeletingName="Income_Monthly_TotalRowDeleting" msprop:Generator_RowChangingName="Income_Monthly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Income_Monthly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Income_Monthly_TotalRowDeleted" msprop:Generator_RowClassName="Income_Monthly_TotalRow" msprop:Generator_UserTableName="Income_Monthly_Total" msprop:Generator_RowEvArgName="Income_Monthly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Expenses_Yearly_Separate" msprop:Generator_TableClassName="Expenses_Yearly_SeparateDataTable" msprop:Generator_TableVarName="tableExpenses_Yearly_Separate" msprop:Generator_RowChangedName="Expenses_Yearly_SeparateRowChanged" msprop:Generator_TablePropName="Expenses_Yearly_Separate" msprop:Generator_RowDeletingName="Expenses_Yearly_SeparateRowDeleting" msprop:Generator_RowChangingName="Expenses_Yearly_SeparateRowChanging" msprop:Generator_RowEvHandlerName="Expenses_Yearly_SeparateRowChangeEventHandler" msprop:Generator_RowDeletedName="Expenses_Yearly_SeparateRowDeleted" msprop:Generator_RowClassName="Expenses_Yearly_SeparateRow" msprop:Generator_UserTableName="Expenses_Yearly_Separate" msprop:Generator_RowEvArgName="Expenses_Yearly_SeparateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Section" msprop:Generator_ColumnVarNameInTable="columnSection" msprop:Generator_ColumnPropNameInRow="Section" msprop:Generator_ColumnPropNameInTable="SectionColumn" msprop:Generator_UserColumnName="Section" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Expenses_Yearly_Total" msprop:Generator_TableClassName="Expenses_Yearly_TotalDataTable" msprop:Generator_TableVarName="tableExpenses_Yearly_Total" msprop:Generator_RowChangedName="Expenses_Yearly_TotalRowChanged" msprop:Generator_TablePropName="Expenses_Yearly_Total" msprop:Generator_RowDeletingName="Expenses_Yearly_TotalRowDeleting" msprop:Generator_RowChangingName="Expenses_Yearly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Expenses_Yearly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Expenses_Yearly_TotalRowDeleted" msprop:Generator_RowClassName="Expenses_Yearly_TotalRow" msprop:Generator_UserTableName="Expenses_Yearly_Total" msprop:Generator_RowEvArgName="Expenses_Yearly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Expenses_Monthly_Separate" msprop:Generator_TableClassName="Expenses_Monthly_SeparateDataTable" msprop:Generator_TableVarName="tableExpenses_Monthly_Separate" msprop:Generator_RowChangedName="Expenses_Monthly_SeparateRowChanged" msprop:Generator_TablePropName="Expenses_Monthly_Separate" msprop:Generator_RowDeletingName="Expenses_Monthly_SeparateRowDeleting" msprop:Generator_RowChangingName="Expenses_Monthly_SeparateRowChanging" msprop:Generator_RowEvHandlerName="Expenses_Monthly_SeparateRowChangeEventHandler" msprop:Generator_RowDeletedName="Expenses_Monthly_SeparateRowDeleted" msprop:Generator_RowClassName="Expenses_Monthly_SeparateRow" msprop:Generator_UserTableName="Expenses_Monthly_Separate" msprop:Generator_RowEvArgName="Expenses_Monthly_SeparateRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Section" msprop:Generator_ColumnVarNameInTable="columnSection" msprop:Generator_ColumnPropNameInRow="Section" msprop:Generator_ColumnPropNameInTable="SectionColumn" msprop:Generator_UserColumnName="Section" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Expenses_Monthly_Total" msprop:Generator_TableClassName="Expenses_Monthly_TotalDataTable" msprop:Generator_TableVarName="tableExpenses_Monthly_Total" msprop:Generator_RowChangedName="Expenses_Monthly_TotalRowChanged" msprop:Generator_TablePropName="Expenses_Monthly_Total" msprop:Generator_RowDeletingName="Expenses_Monthly_TotalRowDeleting" msprop:Generator_RowChangingName="Expenses_Monthly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Expenses_Monthly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Expenses_Monthly_TotalRowDeleted" msprop:Generator_RowClassName="Expenses_Monthly_TotalRow" msprop:Generator_UserTableName="Expenses_Monthly_Total" msprop:Generator_RowEvArgName="Expenses_Monthly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Profit_Yearly_Total" msprop:Generator_TableClassName="Profit_Yearly_TotalDataTable" msprop:Generator_TableVarName="tableProfit_Yearly_Total" msprop:Generator_RowChangedName="Profit_Yearly_TotalRowChanged" msprop:Generator_TablePropName="Profit_Yearly_Total" msprop:Generator_RowDeletingName="Profit_Yearly_TotalRowDeleting" msprop:Generator_RowChangingName="Profit_Yearly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Profit_Yearly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Profit_Yearly_TotalRowDeleted" msprop:Generator_RowClassName="Profit_Yearly_TotalRow" msprop:Generator_UserTableName="Profit_Yearly_Total" msprop:Generator_RowEvArgName="Profit_Yearly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_UserColumnName="Year" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Profit_Monthly_Total" msprop:Generator_TableClassName="Profit_Monthly_TotalDataTable" msprop:Generator_TableVarName="tableProfit_Monthly_Total" msprop:Generator_RowChangedName="Profit_Monthly_TotalRowChanged" msprop:Generator_TablePropName="Profit_Monthly_Total" msprop:Generator_RowDeletingName="Profit_Monthly_TotalRowDeleting" msprop:Generator_RowChangingName="Profit_Monthly_TotalRowChanging" msprop:Generator_RowEvHandlerName="Profit_Monthly_TotalRowChangeEventHandler" msprop:Generator_RowDeletedName="Profit_Monthly_TotalRowDeleted" msprop:Generator_RowClassName="Profit_Monthly_TotalRow" msprop:Generator_UserTableName="Profit_Monthly_Total" msprop:Generator_RowEvArgName="Profit_Monthly_TotalRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnPropNameInTable="MonthColumn" msprop:Generator_UserColumnName="Month" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Amount" msprop:Generator_ColumnVarNameInTable="columnTotal_Amount" msprop:Generator_ColumnPropNameInRow="Total_Amount" msprop:Generator_ColumnPropNameInTable="Total_AmountColumn" msprop:Generator_UserColumnName="Total Amount" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="rpt_ds_bill" targetNamespace="http://tempuri.org/rpt_ds_bill.xsd" xmlns:mstns="http://tempuri.org/rpt_ds_bill.xsd" xmlns="http://tempuri.org/rpt_ds_bill.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="rpt_ds_bill" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="rpt_ds_bill" msprop:Generator_UserDSName="rpt_ds_bill">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="bill" msprop:Generator_TableClassName="billDataTable" msprop:Generator_TableVarName="tablebill" msprop:Generator_RowChangedName="billRowChanged" msprop:Generator_TablePropName="bill" msprop:Generator_RowDeletingName="billRowDeleting" msprop:Generator_RowChangingName="billRowChanging" msprop:Generator_RowEvHandlerName="billRowChangeEventHandler" msprop:Generator_RowDeletedName="billRowDeleted" msprop:Generator_RowClassName="billRow" msprop:Generator_UserTableName="bill" msprop:Generator_RowEvArgName="billRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="c_code" msprop:Generator_ColumnVarNameInTable="columnc_code" msprop:Generator_ColumnPropNameInRow="c_code" msprop:Generator_ColumnPropNameInTable="c_codeColumn" msprop:Generator_UserColumnName="c_code" type="xs:string" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="nic" msprop:Generator_ColumnVarNameInTable="columnnic" msprop:Generator_ColumnPropNameInRow="nic" msprop:Generator_ColumnPropNameInTable="nicColumn" msprop:Generator_UserColumnName="nic" type="xs:string" minOccurs="0" />
+              <xs:element name="mobile" msprop:Generator_ColumnVarNameInTable="columnmobile" msprop:Generator_ColumnPropNameInRow="mobile" msprop:Generator_ColumnPropNameInTable="mobileColumn" msprop:Generator_UserColumnName="mobile" type="xs:string" minOccurs="0" />
+              <xs:element name="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnPropNameInTable="addressColumn" msprop:Generator_UserColumnName="address" type="xs:string" minOccurs="0" />
+              <xs:element name="rv_id" msprop:Generator_ColumnVarNameInTable="columnrv_id" msprop:Generator_ColumnPropNameInRow="rv_id" msprop:Generator_ColumnPropNameInTable="rv_idColumn" msprop:Generator_UserColumnName="rv_id" type="xs:string" minOccurs="0" />
+              <xs:element name="brnd_x002F_model" msprop:Generator_ColumnVarNameInTable="_columnbrnd_model" msprop:Generator_ColumnPropNameInRow="_brnd_model" msprop:Generator_ColumnPropNameInTable="_brnd_modelColumn" msprop:Generator_UserColumnName="brnd/model" type="xs:string" minOccurs="0" />
+              <xs:element name="millage" msprop:Generator_ColumnVarNameInTable="columnmillage" msprop:Generator_ColumnPropNameInRow="millage" msprop:Generator_ColumnPropNameInTable="millageColumn" msprop:Generator_UserColumnName="millage" type="xs:int" minOccurs="0" />
+              <xs:element name="number" msprop:Generator_ColumnVarNameInTable="columnnumber" msprop:Generator_ColumnPropNameInRow="number" msprop:Generator_ColumnPropNameInTable="numberColumn" msprop:Generator_UserColumnName="number" type="xs:string" minOccurs="0" />
+              <xs:element name="kmperday" msprop:Generator_ColumnVarNameInTable="columnkmperday" msprop:Generator_ColumnPropNameInRow="kmperday" msprop:Generator_ColumnPropNameInTable="kmperdayColumn" msprop:Generator_UserColumnName="kmperday" type="xs:string" minOccurs="0" />
+              <xs:element name="rateperday" msprop:Generator_ColumnVarNameInTable="columnrateperday" msprop:Generator_ColumnPropNameInRow="rateperday" msprop:Generator_ColumnPropNameInTable="rateperdayColumn" msprop:Generator_UserColumnName="rateperday" type="xs:decimal" minOccurs="0" />
+              <xs:element name="exeedRate" msprop:Generator_ColumnVarNameInTable="columnexeedRate" msprop:Generator_ColumnPropNameInRow="exeedRate" msprop:Generator_ColumnPropNameInTable="exeedRateColumn" msprop:Generator_UserColumnName="exeedRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="minDeposit" msprop:Generator_ColumnVarNameInTable="columnminDeposit" msprop:Generator_ColumnPropNameInRow="minDeposit" msprop:Generator_ColumnPropNameInTable="minDepositColumn" msprop:Generator_UserColumnName="minDeposit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="billID" msprop:Generator_ColumnVarNameInTable="columnbillID" msprop:Generator_ColumnPropNameInRow="billID" msprop:Generator_ColumnPropNameInTable="billIDColumn" msprop:Generator_UserColumnName="billID" type="xs:string" minOccurs="0" />
+              <xs:element name="billDate" msprop:Generator_ColumnVarNameInTable="columnbillDate" msprop:Generator_ColumnPropNameInRow="billDate" msprop:Generator_ColumnPropNameInTable="billDateColumn" msprop:Generator_UserColumnName="billDate" type="xs:string" minOccurs="0" />
+              <xs:element name="RentDate" msprop:Generator_ColumnVarNameInTable="columnRentDate" msprop:Generator_ColumnPropNameInRow="RentDate" msprop:Generator_ColumnPropNameInTable="RentDateColumn" msprop:Generator_UserColumnName="RentDate" type="xs:string" minOccurs="0" />
+              <xs:element name="finalMillage" msprop:Generator_ColumnVarNameInTable="columnfinalMillage" msprop:Generator_ColumnPropNameInRow="finalMillage" msprop:Generator_ColumnPropNameInTable="finalMillageColumn" msprop:Generator_UserColumnName="finalMillage" type="xs:string" minOccurs="0" />
+              <xs:element name="damageAmount" msprop:Generator_ColumnVarNameInTable="columndamageAmount" msprop:Generator_ColumnPropNameInRow="damageAmount" msprop:Generator_ColumnPropNameInTable="damageAmountColumn" msprop:Generator_UserColumnName="damageAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalBill" msprop:Generator_ColumnVarNameInTable="columnTotalBill" msprop:Generator_ColumnPropNameInRow="TotalBill" msprop:Generator_ColumnPropNameInTable="TotalBillColumn" msprop:Generator_UserColumnName="TotalBill" type="xs:decimal" minOccurs="0" />
+              <xs:element name="advPayment" msprop:Generator_ColumnVarNameInTable="columnadvPayment" msprop:Generator_ColumnPropNameInRow="advPayment" msprop:Generator_ColumnPropNameInTable="advPaymentColumn" msprop:Generator_UserColumnName="advPayment" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
